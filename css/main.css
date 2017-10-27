@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
   margin: 0 auto;
   font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -65,7 +59,7 @@ p {
 
 .container:before, .container:after {
   content: " ";
-  display: table;
+  ;
 }
 
 .mb-0 {
@@ -109,6 +103,10 @@ p {
   font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-weight: 700;
   padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
 }
 
 .navigation .container {
@@ -141,6 +139,7 @@ p {
   text-align: center;
   background-color: #18bc9c;
   padding: 110px 0;
+  margin-top: 86px;
 }
 
 .header__title {
