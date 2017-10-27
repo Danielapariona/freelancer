@@ -34,7 +34,15 @@ section {
   padding: 100px 0;
 }
 
+
 /* Mis clases */
+
+::placeholder {
+  color:  #868e96;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 1em;
+}
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -212,3 +220,43 @@ section {
 .main__about__description2 {
   float: right;
 }
+
+.main_contact-me {
+  /*background-color: pink;*/
+}
+
+.form {
+  display: block;
+  margin: 30px;
+}
+
+.form__container {
+  width: 730px;
+  margin: auto;
+}
+
+.form__container--element {
+  border-bottom: 1px solid #eee;
+  margin: 40px 0;
+}
+
+.form__element {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: 0;
+  font-size: 1.5em;
+  padding-bottom: 30px;
+}
+
+.form__textarea {
+  resize: none;
+}
+
+.btn--green {
+  background-color: #18bc9c;
+  color: white;
+  font-weight: 700;
+  float: left;
+}
+/*****
