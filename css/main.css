@@ -87,9 +87,10 @@ p {
   padding: 15px;
   border-radius: 5px;
   font-size: 20px;
+  cursor: pointer;
 }
 
-.btn:hover {
+.btn--white:hover {
   background-color: white;
   color: #18bc9c;
   transition: all .3s ease-in-out;
@@ -263,6 +264,11 @@ p {
   font-weight: 700;
   float: left;
 }
+
+.btn--green:hover {
+  opacity: 0.8;
+}
+
 /*****
 
 
